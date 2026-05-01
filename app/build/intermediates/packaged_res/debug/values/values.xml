@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="error">#B3261E</color>
+    <color name="errorContainer">#F9DEDC</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="onErrorContainer">#410E0B</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="onPrimaryContainer">#21005D</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="onSecondaryContainer">#1D192B</color>
+    <color name="onSurface">#1D1B20</color>
+    <color name="primary">#6750A4</color>
+    <color name="primaryContainer">#EADDFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="secondary">#625B71</color>
+    <color name="secondaryContainer">#E8DEF8</color>
+    <color name="surface">#FEF7FF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Hostel Complaint Tracker</string>
+    <string name="gcm_defaultSenderId" translatable="false">718135978054</string>
+    <string name="gemini_api_key">AIzaSyC1gciWkDvEh9b29J1USJF1FQ64XOWJ6j0</string>
+    <string name="google_api_key" translatable="false">AIzaSyDX1rf10cpwnnCUCown-Tuc1P5i8vlSB1A</string>
+    <string name="google_app_id" translatable="false">1:718135978054:android:877bf17ee69ce2c24b0247</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDX1rf10cpwnnCUCown-Tuc1P5i8vlSB1A</string>
+    <string name="google_storage_bucket" translatable="false">hostel-complaint-tracker-7983f.firebasestorage.app</string>
+    <string name="project_id" translatable="false">hostel-complaint-tracker-7983f</string>
+    <style name="Theme.HostelComplaintTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer</item>
+
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+        <item name="colorSecondaryContainer">@color/secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/onSecondaryContainer</item>
+
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

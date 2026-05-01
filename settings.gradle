@@ -1,0 +1,2 @@
+rootProject.name = "Hostel Complaint Tracker"
+include ':app'

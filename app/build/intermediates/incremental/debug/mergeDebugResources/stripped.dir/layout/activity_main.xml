@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="?attr/colorSurface">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome User"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/logoutBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutBtn"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:icon="@android:drawable/ic_lock_power_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dashboardLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_app_logo"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submitComplaintBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:text="Submit New Complaint"
+        android:visibility="gone"
+        app:icon="@android:drawable/ic_input_add"
+        app:layout_constraintTop_toBottomOf="@id/dashboardLogo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewComplaintsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:text="My Complaint History"
+        android:visibility="gone"
+        app:icon="@android:drawable/ic_menu_recent_history"
+        app:layout_constraintTop_toBottomOf="@id/submitComplaintBtn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/wardenDashboardBtn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:text="Go to Admin Panel"
+        android:visibility="gone"
+        app:icon="@android:drawable/ic_menu_manage"
+        app:layout_constraintTop_toBottomOf="@id/dashboardLogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
