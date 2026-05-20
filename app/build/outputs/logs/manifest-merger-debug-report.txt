@@ -20,7 +20,7 @@ MERGED from [com.google.android.material:material:1.11.0] C:\Users\ANANYA UDUPA\
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\5aa9584782ac9f2782b2840c4498a8ee\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\3aba044abe68194e143206a510710384\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\e8b7fa243aa043d8941c2baf1b8bd6b9\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.ai.client.generativeai:generativeai:0.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\893946a93e3bb44542f2cc95adc32ffb\transformed\jetified-generativeai-0.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\3ec948ce634cf65bd37994e23518a7d0\transformed\jetified-generativeai-0.9.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\4cc9212b13991e867c74c0e8dc6435d7\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\b75cddb0d115c6daab2cc9e00a9ce4a3\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\a8e18cda1bf50e22892a1aba2096c1ce\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
@@ -82,6 +82,7 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ANANYA UDUPA\.
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\178c93c93b7e4c002753aab93a983552\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\bc622e61e959fd4c0f13641cefbb7484\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\902df47d68c3fc74c7c9f29605344f63\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\ede9dccdfa959164c066f92a247adf55\transformed\jetified-common-0.8.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\0da52565038a680f635242b51d0b6c70\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\3d5da01a0cc8891ae2cd928603945e36\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\970e1c1c388174b39379cc3824cff4a0\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
@@ -140,8 +141,8 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\ANA
 		ADDED from C:\Users\ANANYA UDUPA\Desktop\major projecy-swizosoft\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\ANANYA UDUPA\Desktop\major projecy-swizosoft\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.google.ai.client.generativeai:generativeai:0.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\893946a93e3bb44542f2cc95adc32ffb\transformed\jetified-generativeai-0.2.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.ai.client.generativeai:generativeai:0.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\893946a93e3bb44542f2cc95adc32ffb\transformed\jetified-generativeai-0.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\3ec948ce634cf65bd37994e23518a7d0\transformed\jetified-generativeai-0.9.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\3ec948ce634cf65bd37994e23518a7d0\transformed\jetified-generativeai-0.9.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\6862f32d24cfcc7327c6f05c585d8360\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\6862f32d24cfcc7327c6f05c585d8360\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\6d5cd6a57032061ffe7b2e699943cc31\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
@@ -164,6 +165,8 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Use
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.1.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\b004b1bab0c235433f9f407537495f04\transformed\jetified-play-services-cloud-messaging-17.1.0\AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\088b0d1cd9236c43297ce0c2522ad70f\transformed\jetified-play-services-measurement-impl-21.5.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\088b0d1cd9236c43297ce0c2522ad70f\transformed\jetified-play-services-measurement-impl-21.5.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\ede9dccdfa959164c066f92a247adf55\transformed\jetified-common-0.8.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\ede9dccdfa959164c066f92a247adf55\transformed\jetified-common-0.8.0\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\323cf3a87f71b66a81d129fe92aee592\transformed\jetified-play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\323cf3a87f71b66a81d129fe92aee592\transformed\jetified-play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\deb4f071cb38c7b95dcb5d40e9d6d75b\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
@@ -447,8 +450,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ANANYA UDUPA
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\3aba044abe68194e143206a510710384\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\e8b7fa243aa043d8941c2baf1b8bd6b9\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\e8b7fa243aa043d8941c2baf1b8bd6b9\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.ai.client.generativeai:generativeai:0.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\893946a93e3bb44542f2cc95adc32ffb\transformed\jetified-generativeai-0.2.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.ai.client.generativeai:generativeai:0.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\893946a93e3bb44542f2cc95adc32ffb\transformed\jetified-generativeai-0.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\3ec948ce634cf65bd37994e23518a7d0\transformed\jetified-generativeai-0.9.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\3ec948ce634cf65bd37994e23518a7d0\transformed\jetified-generativeai-0.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\4cc9212b13991e867c74c0e8dc6435d7\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\4cc9212b13991e867c74c0e8dc6435d7\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\b75cddb0d115c6daab2cc9e00a9ce4a3\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
@@ -571,6 +574,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\ANANYA UD
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\bc622e61e959fd4c0f13641cefbb7484\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\902df47d68c3fc74c7c9f29605344f63\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\902df47d68c3fc74c7c9f29605344f63\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\ede9dccdfa959164c066f92a247adf55\transformed\jetified-common-0.8.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\ede9dccdfa959164c066f92a247adf55\transformed\jetified-common-0.8.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\0da52565038a680f635242b51d0b6c70\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\0da52565038a680f635242b51d0b6c70\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0] C:\Users\ANANYA UDUPA\.gradle\caches\transforms-3\3d5da01a0cc8891ae2cd928603945e36\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41

@@ -46,6 +46,38 @@ class SubmitComplaintActivity : AppCompatActivity() {
         }
     }
 
+    private val chatResultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+        if (result.resultCode == Activity.RESULT_OK) {
+            val data = result.data
+            val description = data?.getStringExtra("description") ?: ""
+            val category = data?.getStringExtra("category") ?: ""
+            val urgency = data?.getStringExtra("urgency") ?: "Medium"
+            val sentiment = data?.getStringExtra("sentiment") ?: "Neutral"
+            val temporarySolution = data?.getStringExtra("temporarySolution") ?: ""
+
+            // Combine enhanced description and temporary solution
+            val finalDescription = if (temporarySolution.isNotEmpty() && temporarySolution != "No immediate workaround available.") {
+                "$description\n\n[Temporary Solution/Workaround for Student]:\n$temporarySolution"
+            } else {
+                description
+            }
+
+            binding.descriptionInput.setText(finalDescription)
+            binding.categoryDropdown.setText(category, false)
+            
+            predictedCategory = category
+            predictedUrgency = urgency
+            predictedSentiment = sentiment
+
+            binding.aiAnalysisCard.visibility = View.VISIBLE
+            var resultDisplay = "Imported from AI Chat:\nCategory: $category\nUrgency: $urgency\nSentiment: $sentiment"
+            if (temporarySolution.isNotEmpty() && temporarySolution != "No immediate workaround available.") {
+                resultDisplay += "\n\nTemporary Workaround:\n$temporarySolution"
+            }
+            binding.aiResultText.text = resultDisplay
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySubmitComplaintBinding.inflate(layoutInflater)
@@ -84,7 +116,7 @@ class SubmitComplaintActivity : AppCompatActivity() {
         }
 
         binding.askAiBtn.setOnClickListener {
-            startActivity(Intent(this, ChatActivity::class.java))
+            chatResultLauncher.launch(Intent(this, ChatActivity::class.java))
         }
 
         binding.submitBtn.setOnClickListener {
@@ -104,7 +136,11 @@ class SubmitComplaintActivity : AppCompatActivity() {
             predictedUrgency = result.urgency
             predictedSentiment = result.sentiment
             
-            binding.aiResultText.text = "Suggested Category: ${result.category}\nPredicted Urgency: ${result.urgency}\nSentiment: ${result.sentiment}"
+            var resultDisplay = "Suggested Category: ${result.category}\nPredicted Urgency: ${result.urgency}\nSentiment: ${result.sentiment}"
+            if (result.temporarySolution.isNotEmpty() && result.temporarySolution != "No immediate workaround available.") {
+                resultDisplay += "\n\nTemporary Workaround:\n${result.temporarySolution}"
+            }
+            binding.aiResultText.text = resultDisplay
             
             if (binding.categoryDropdown.text.isEmpty()) {
                 binding.categoryDropdown.setText(result.category, false)

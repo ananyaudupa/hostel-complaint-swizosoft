@@ -1,66 +1,58 @@
 [
     {
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/item_complaint.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/item_complaint.xml"
+    },
+    {
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/activity_chat.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/activity_chat.xml"
+    },
+    {
         "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/activity_login.xml",
         "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\activity_complaint_status.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\activity_complaint_status.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/item_chat_ai.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/item_chat_ai.xml"
     },
     {
         "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/activity_main.xml",
         "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\activity_complaint_detail.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\activity_complaint_detail.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/activity_register.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\item_media_preview.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\item_media_preview.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/item_chat_user.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/item_chat_user.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\item_chat_ai.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\item_chat_ai.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/activity_complaint_detail.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/activity_complaint_detail.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\item_chat_user.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\item_chat_user.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/activity_warden_dashboard.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/activity_warden_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\item_timeline.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\item_timeline.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/activity_complaint_history.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/activity_complaint_history.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\activity_login.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/item_timeline.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/item_timeline.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\activity_submit_complaint.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\activity_submit_complaint.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/activity_submit_complaint.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/activity_submit_complaint.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\activity_chat.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\activity_chat.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/item_media_preview.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/item_media_preview.xml"
     },
     {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\activity_warden_dashboard.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\activity_warden_dashboard.xml"
-    },
-    {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\activity_complaint_history.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\activity_complaint_history.xml"
-    },
-    {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\item_complaint.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\item_complaint.xml"
-    },
-    {
-        "merged": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\ANANYA UDUPA\\.gradle\\daemon\\8.2\\com.swizosoft.hostelcomplaints.app-main-64:\\layout\\activity_main.xml"
+        "merged": "com.swizosoft.hostelcomplaints.app-mergeDebugResources-61:/layout/activity_complaint_status.xml",
+        "source": "com.swizosoft.hostelcomplaints.app-main-64:/layout/activity_complaint_status.xml"
     }
 ]

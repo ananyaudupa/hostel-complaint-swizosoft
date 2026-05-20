@@ -23,6 +23,7 @@ color teal_700
 color white
 drawable ic_app_logo
 drawable ic_launcher_foreground
+drawable ic_timeline_checked
 id action_logout
 id addMediaBtn
 id aiAnalysisCard

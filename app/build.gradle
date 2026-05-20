@@ -61,7 +61,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:20.7.0'
 
     // Gemini API
-    implementation 'com.google.ai.client.generativeai:generativeai:0.2.0'
+    implementation 'com.google.ai.client.generativeai:generativeai:0.9.0'
 
     // ML Kit for Sentiment Analysis (Natural Language)
     implementation 'com.google.mlkit:language-id:17.0.4'

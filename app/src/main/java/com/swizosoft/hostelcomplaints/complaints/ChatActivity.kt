@@ -42,6 +42,9 @@ class ChatActivity : AppCompatActivity() {
         binding.chatRecyclerView.adapter = adapter
     }
 
+    private var lastAnalysis: com.swizosoft.hostelcomplaints.ai.ComplaintAnalysis? = null
+    private var lastDescription: String = ""
+
     private fun sendMessage() {
         val text = binding.chatInput.text.toString().trim()
         if (text.isEmpty()) return
@@ -49,12 +52,37 @@ class ChatActivity : AppCompatActivity() {
         addUserMessage(text)
         binding.chatInput.setText("")
         
+        // Check for confirmation (e.g., "Yes", "Ok", etc.)
+        val affirmativeWords = listOf("yes", "yeah", "ok", "sure", "yep", "y", "yess", "yesls")
+        if (affirmativeWords.contains(text.lowercase()) && lastAnalysis != null) {
+            val intent = android.content.Intent().apply {
+                putExtra("description", lastAnalysis?.enhancedDescription ?: lastDescription)
+                putExtra("category", lastAnalysis?.category)
+                putExtra("urgency", lastAnalysis?.urgency)
+                putExtra("sentiment", lastAnalysis?.sentiment)
+                putExtra("temporarySolution", lastAnalysis?.temporarySolution)
+            }
+            setResult(RESULT_OK, intent)
+            finish()
+            return
+        }
+
         binding.progressBar.visibility = View.VISIBLE
         lifecycleScope.launch {
             try {
-                // We reuse the analyzeComplaint logic or add a new chat-specific prompt
-                val response = geminiService.analyzeComplaint(text) // For now, reuse analysis
-                val reply = "I understand. Based on what you said, I suggest the category: ${response.category}. It seems like a ${response.urgency} priority issue. Would you like to use this for your complaint?"
+                // Analyze the user's input to suggest category and urgency
+                val response = geminiService.analyzeComplaint(text)
+                lastAnalysis = response
+                lastDescription = text
+                
+                val reply = "I understand. Based on your description, here is what I analyzed:\n\n" +
+                        "• Suggested Category: **${response.category}**\n" +
+                        "• Urgency: **${response.urgency}**\n\n" +
+                        "**Enhanced Description for Maintenance:**\n" +
+                        "\"${response.enhancedDescription}\"\n\n" +
+                        "**Temporary Solution for You:**\n" +
+                        "${response.temporarySolution}\n\n" +
+                        "Would you like to use this for your complaint?"
                 addAiMessage(reply)
             } catch (e: Exception) {
                 addAiMessage("Sorry, I'm having trouble connecting. Please try again.")

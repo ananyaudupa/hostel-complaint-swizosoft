@@ -16,8 +16,7 @@
             android:id="@+id/statusIndicator"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@android:drawable/presence_online"
-            app:tint="?attr/colorPrimary" />
+            android:src="@android:drawable/presence_online" />
 
         <View
             android:id="@+id/timelineLine"
